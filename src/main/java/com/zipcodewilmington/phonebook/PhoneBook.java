@@ -1,17 +1,27 @@
 package com.zipcodewilmington.phonebook;
 
-import java.util.List;
-import java.util.ArrayList;
+import java.util.*;
 //import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.Map;
+
 
 /**
  * Created by leon on 1/23/18.
  * Made WAY better by kristofer 6/16/20
  */
+
+
 public class PhoneBook {
+
+    public static void main(String[] args) {
+
+        Map<String,Integer> map  = new HashMap<>();
+
+        map.put("Christ", 610-222-4569);
+        map.put("Joe", 610-544-9087);
+        map.put("Sam", 610-674-7865);
+        map.put("Dean", 610-777-4567);
+    }
+
 
     private final Map<String, List<String>> phonebook;
 
@@ -40,7 +50,7 @@ public class PhoneBook {
         return null;
     }
 
-    public String reverseLookup(String phoneNumber)  {
+    public String reverseLookup(String phoneNumber) {
         return null;
     }
 
@@ -51,4 +61,5 @@ public class PhoneBook {
     public Map<String, List<String>> getMap() {
         return null;
     }
+
 }
