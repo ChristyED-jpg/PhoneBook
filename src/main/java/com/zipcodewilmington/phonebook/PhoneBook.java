@@ -13,7 +13,6 @@ import java.util.*;
 public class PhoneBook {
 
     public static void main(String[] args) {
-
         Map<String,Integer> map  = new HashMap<>();
 
         map.put("Christ", 610-222-4569);
@@ -23,7 +22,14 @@ public class PhoneBook {
     }
 
 
+
     private final Map<String, List<String>> phonebook;
+
+    public Map<String, List<String>> getPhonebook() {
+        return phonebook;
+    }
+
+
 
     public PhoneBook(Map<String, List<String>> map) {
         this.phonebook = null;
