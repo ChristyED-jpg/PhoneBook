@@ -40,6 +40,7 @@ public class PhoneBook {
 
 
     public void remove(String name) {
+        phonebook.remove(name);
 
     }
 
