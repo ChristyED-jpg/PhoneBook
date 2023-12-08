@@ -70,7 +70,11 @@ public class PhoneBook {
     }
 
     public List<String> getAllContactNames() {
-        return null;
+        ArrayList<String>rn = new ArrayList<>();
+        for(String name : phonebook.keySet()){
+            rn.add(name);
+        }
+        return rn;
     }
 
     public Map<String, List<String>> getMap() {
