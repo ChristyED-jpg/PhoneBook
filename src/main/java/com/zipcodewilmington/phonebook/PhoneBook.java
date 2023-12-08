@@ -61,8 +61,10 @@ public class PhoneBook {
 
 
     public String reverseLookup(String phoneNumber) { // looking the key
-        for(String name : phonebook.keySet()){
+        for(String name : phonebook.keySet()){ // It Loops through each name in the phonebook using for each Loop
+            /// it checks if the phoneNumber associated with the current name in the phonebook contains the given phoneNumber
             if(phonebook.get(name).contains(phoneNumber)){
+            // if there is a match return the key
                 return name;
             }
         }
