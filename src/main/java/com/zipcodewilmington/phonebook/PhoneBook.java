@@ -23,6 +23,9 @@ public class PhoneBook {
     }
 
     public void add(String name, String phoneNumber) {
+        ArrayList<String> str = new ArrayList<>();
+        str.add(phoneNumber);
+        phonebook.put(name,str);
 
     }
 
