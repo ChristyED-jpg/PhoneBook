@@ -51,7 +51,7 @@ public class PhoneBook {
 
     public Boolean hasEntry(String name, String phoneNumber) {
 
-       return  phone;
+       return  phonebook.get(name).contains(name);
     }
 
     public List<String> lookup(String name) { // Looking for the value
