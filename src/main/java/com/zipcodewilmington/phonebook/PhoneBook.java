@@ -46,12 +46,12 @@ public class PhoneBook {
 
     public Boolean hasEntry(String name) {
 
-        return null;
+        return phonebook.containsKey(name);
     }
 
     public Boolean hasEntry(String name, String phoneNumber) {
 
-       return null;
+       return  phone;
     }
 
     public List<String> lookup(String name) { // Looking for the value
