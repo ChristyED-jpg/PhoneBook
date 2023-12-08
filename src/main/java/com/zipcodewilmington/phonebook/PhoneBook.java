@@ -30,6 +30,11 @@ public class PhoneBook {
     }
 
     public void addAll(String name, String... phoneNumbers) {
+        ArrayList<String> str = new ArrayList<>();
+        for(int i=0; i< phoneNumbers.length; i++){
+            str.add(phoneNumbers[i]);
+            phonebook.put(name,str);
+        }
 
     }
 
