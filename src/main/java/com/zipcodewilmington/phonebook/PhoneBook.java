@@ -74,7 +74,7 @@ public class PhoneBook {
     }
 
     public Map<String, List<String>> getMap() {
-        return null;
+        return phonebook;
     }
 
 }
