@@ -55,7 +55,7 @@ public class PhoneBook {
     }
 
     public List<String> lookup(String name) { // Looking for the value
-        return null;
+        return phonebook.get(name);
 
     }
 
